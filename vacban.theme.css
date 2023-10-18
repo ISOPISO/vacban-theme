@@ -1,0 +1,66 @@
+/**
+ * @name vacban.wtf theme
+ * @description A vacban discord theme.
+ * @author ISOPISO
+ * @version 1.0
+ * @source https://github.com/ISOPISO/vacban-theme
+ * @authorId 721129414364102707
+*/
+
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!! */
+
+@import url('https://isopiso.github.io/vacban-theme/vacban.css');
+
+/* change colors and variables here */
+:root {
+	/* amount of spacing and padding */
+	--spacing: 12px;
+	/* radius of round corners */
+	--roundness: 16px;
+
+	/* color of links */
+	--accent-1: hsl(124, 80%, 60%);
+	/* color of unread dividers and some indicators */
+	--accent-2: hsl(124, 80%, 60%);
+	/* color of accented buttons */
+	--accent-3: hsla(124, 80%, 60%, 0.204);
+	/* color of accented buttons when hovered */
+	--accent-4: hsla(124, 80%, 60%, 0.24);
+	/* color of accented buttons when clicked */
+	--accent-5: #1c1c1c;
+
+	/* color of green online dot, discord default is #23a55a */
+	--online-indicator: var(--accent-2);
+
+	/* color of mentions and messages that mention you */
+	--mention: rgba(71, 235, 82, 0.068);
+	/* color of mentions and messages that mention you when hovered */
+	--mention-hover: rgba(71, 235, 82, 0.068);
+
+	/* color of bright text on colored buttons */
+	--text-1: hsl(0, 0%, 100%);
+	/* color of headings and important text */
+	--text-2: hsl(0, 0%, 100%);
+	/* color of normal text */
+	--text-3: hsl(0, 0%, 73%);
+	/* color of icon buttons and channels */
+	--text-4: hsl(120, 15%, 40%);
+	/* color of muted channels/chats and timestamps */
+	--text-5: hsl(0, 0%, 52%);
+
+	/* color of dark buttons when clicked */
+	--bg-1: hsl(131, 16%, 20%);
+	/* color of dark buttons */
+	--bg-2: hsl(120, 15%, 16%);
+	/* color of spacing around panels and secondary elements */
+	--bg-3: #141414;
+	/* main background color */
+	--bg-4: #1c1c1c;
+
+	/* color of channels and icon buttons when hovered */
+	--hover: hsla(124, 20%, 40%, 0.1);
+	/* color of channels and icon buttons when clicked or selected */
+	--active: hsla(126, 20%, 40%, 0.2);
+	/* color of messages when hovered */
+	--message-hover: hsla(220, 0%, 0%, 0.1);
+}
