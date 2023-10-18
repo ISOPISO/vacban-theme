@@ -38,13 +38,13 @@
 	--mention-hover: rgba(61, 174, 199, 0.068);
 
 	/* color of bright text on colored buttons */
-	--text-1: hsl(0, 0%, 100%);
+	--text-1: hsl(0, 0%, 87%);
 	/* color of headings and important text */
 	--text-2: hsl(0, 0%, 100%);
 	/* color of normal text */
-	--text-3: hsl(0, 0%, 83%);
+	--text-3: hsl(0, 0%, 100%);
 	/* color of icon buttons and channels */
-	--text-4: #cecece;
+	--text-4: #999999;
 	/* color of muted channels/chats and timestamps */
 	--text-5: #91d7fd;
 
