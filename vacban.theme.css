@@ -23,7 +23,7 @@
 	/* color of unread dividers and some indicators */
 	--accent-2: #b243c8;
 	/* color of accented buttons */
-	--accent-3: hsla(320, 80%, 60%, 0.227);
+	--accent-3: #1e1e2d;
 	/* color of accented buttons when hovered */
 	--accent-4: hsla(320, 80%, 60%, 0.204);
 	/* color of accented buttons when clicked */
@@ -44,23 +44,23 @@
 	/* color of normal text */
 	--text-3: hsl(0, 0%, 83%);
 	/* color of icon buttons and channels */
-	--text-4: #a3a3dc;
+	--text-4: #cecece;
 	/* color of muted channels/chats and timestamps */
 	--text-5: #9195fd;
 
 	/* color of dark buttons when clicked */
-	--bg-1: hsl(180, 16%, 20%);
+	--bg-1: #151521;
 	/* color of dark buttons */
-	--bg-2: hsl(175, 15%, 16%);
+	--bg-2: #151521;
 	/* color of spacing around panels and secondary elements */
 	--bg-3: #151521;
 	/* main background color */
 	--bg-4: #1e1e2d;
 
 	/* color of channels and icon buttons when hovered */
-	--hover: hsla(124, 20%, 40%, 0.1);
+	--hover: hsla(200, 23%, 25%, 0.1);
 	/* color of channels and icon buttons when clicked or selected */
-	--active: hsla(126, 20%, 40%, 0.2);
+	--active: hsla(200, 23%, 25%, 0.1);
 	/* color of messages when hovered */
 	--message-hover: hsla(220, 0%, 0%, 0.1);
 }
