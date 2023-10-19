@@ -51,6 +51,23 @@
 	--message-hover: hsla(220, 0%, 0%, 0.1);
 }
 
+.tutorialContainer-2sGCg9
+  .wrapper-2PSQCG
+  .childWrapper-1j_1ub
+  .homeIcon-FuNwkv {
+  visibility: hidden;
+}
+.tutorialContainer-2sGCg9
+  .listItem-GuPuDH
+  .listItemWrapper-KhRmzM
+  .wrapper-3kah-n
+  .childWrapper-1j_1ub {
+  background-color: initial;
+}
+.homeIcon-tEMBK1 {
+  visibility: hidden;
+}
+
 /* extra top margin for macos and custom clients */
 .base-2jDfDU {
 	margin-top: var(--spacing);
@@ -483,6 +500,33 @@ path[fill="var(--status-danger)"] /* vencord game activity toggle */ {
 	--forum-post-extra-media-count-container-background: hsl(
 		var(--primary-660-hsl) / 0.8
 	);
+	.appMount-2yBXZl {
+		background-image: var(--theme-background-image) !important;
+		background-size: cover !important;
+	  }
+	  .tutorialContainer-2sGCg9
+		.wrapper-2PSQCG
+		.childWrapper-1j_1ub
+		.homeIcon-FuNwkv {
+		visibility: hidden;
+	  }
+	  .tutorialContainer-2sGCg9
+		.listItem-GuPuDH
+		.listItemWrapper-KhRmzM
+		.wrapper-3kah-n
+		.childWrapper-1j_1ub {
+		background-color: initial;
+	  }
+	  .homeIcon-tEMBK1 {
+		visibility: hidden;
+	  }
+	  .tutorialContainer-2sGCg9
+		.listItem-GuPuDH
+		.listItemWrapper-KhRmzM
+		.wrapper-3kah-n
+		svg {
+		opacity: 0;
+	  }
 	--forum-post-tag-background: hsl(var(--primary-660-hsl) / 0.9);
 	--header-primary: var(--text-2);
 	--header-secondary: var(--text-4);
