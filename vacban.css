@@ -504,7 +504,7 @@ button.button_afdfd9 /* small buttons */,
 	line-height: 32px;
 	opacity: 0.8;
 	transition: all 50ms linear;
-	background: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/Fakecrime.orange.png');
+	background: url('https://upload.wikimedia.org/wikipedia/commons/b/ba/Vb-logo.png');
 }
 [class^='tutorialContainer'] svg [class^="wrapper"]  > [class^="childWrapper"]:hover::after {
 	/* Transformations for hover effects go here. */
