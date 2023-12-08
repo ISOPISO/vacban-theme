@@ -1,9 +1,10 @@
 /**
- * @name vacban.wtf theme
- * @description A vacban discord theme.
+ * @name vacban.wtf
+ * @description A darkened discord theme in the style of vacban.wtf
  * @author ISOPISO
- * @version 1.0
- * @source https://github.com/ISOPISO/vacban-theme
+ * @website https://vacban.wtf
+ * @version 1.2
+ * @source https://github.com/ISOPISO/vacban.wtf
  * @authorId 721129414364102707
 */
 
@@ -11,12 +12,33 @@
 
 @import url('https://isopiso.github.io/vacban-theme/vacban.css');
 
-/* change colors and variables here */
+/* customize things here */
 :root {
+	/* font, change to 'gg sans' for default discord font*/
+	--font: 'figtree';
+
+	/* color of green online dot, change to #23a55a for default green */
+	--online-indicator: var(--accent-2);
+
+	/* top left icon */
+	--bolt-icon: block; /* change to none to hide bolt icon */
+	--discord-icon: none; /* change to block to show default discord icon */
+
 	/* amount of spacing and padding */
 	--spacing: 12px;
-	/* radius of round corners */
-	--roundness: 16px;
+
+	/* roundness of big panel outer corners */
+	--roundness-xl: 22px;
+	/* popout panels */
+	--roundness-l: 20px;
+	/* smaller panels, images, embeds */
+	--roundness-m: 16px;
+	/* members, settings inputs */
+	--roundness-s: 12px;
+	/* channels, buttons*/
+	--roundness-xs: 10px;
+	/* searchbar, small elements */
+	--roundness-xxs: 8px;
 
 	/* color of links */
 	--accent-1: #2daac1;
@@ -28,14 +50,10 @@
 	--accent-4: hsla(320, 80%, 60%, 0.204);
 	/* color of accented buttons when clicked */
 	--accent-5: #1c1c1c;
-
-	/* color of green online dot, discord default is #23a55a */
-	--online-indicator: #43c852;
-
 	/* color of mentions and messages that mention you */
-	--mention: rgba(61, 174, 199, 0.068);
+	--mention: hsla(26, 80%, 52%, 0.1);
 	/* color of mentions and messages that mention you when hovered */
-	--mention-hover: rgba(61, 174, 199, 0.068);
+	--mention-hover: hsla(25, 80%, 52%, 0.05);
 
 	/* color of bright text on colored buttons */
 	--text-1: hsl(0, 0%, 87%);
@@ -56,11 +74,33 @@
 	--bg-3: #151521;
 	/* main background color */
 	--bg-4: #1e1e2d;
-
 	/* color of channels and icon buttons when hovered */
 	--hover: hsla(200, 23%, 25%, 0.1);
 	/* color of channels and icon buttons when clicked or selected */
 	--active: hsla(200, 23%, 25%, 0.1);
 	/* color of messages when hovered */
 	--message-hover: hsla(220, 0%, 0%, 0.1);
+}
+
+[class^='tutorialContainer'] svg [class^="wrapper"] > [class^="childWrapper"] img,
+[class^='tutorialContainer'] svg [class^="wrapper"] > [class^="childWrapper"] svg {
+	/* Hide the default icon. */
+	display: none;
+}
+[class^='tutorialContainer'] svg [class^="wrapper"] > [class^="childWrapper"]::after {
+	/* Create a new icon in its place. */
+	content: ' ';
+	display: block;
+	position: relative;
+	width: 42px;
+	height: 42px;
+	line-height: 32px;
+	opacity: 0.8;
+	transition: all 50ms linear;
+	background: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/Fakecrime.orange.png') center / contain no-repeat;
+}
+[class^='tutorialContainer'] svg [class^="wrapper"]  > [class^="childWrapper"]:hover::after {
+	/* Transformations for hover effects go here. */
+	opacity: 1;
+	transform: scale(1.1) rotateZ(-10deg);
 }
