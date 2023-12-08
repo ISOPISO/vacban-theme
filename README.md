@@ -4,7 +4,7 @@
 
 A vacban discord theme with rounded chat and sidebars.
 
-<img width=800 src="https://cdn.discordapp.com/attachments/1124658941092167680/1164244986456453150/image.png?ex=654282a3&is=65300da3&hm=1f4cd376140aafde9bc07e51d5820d363be639eec1ca53ef9649918afe8d7204&">
+<img width=800 src="https://cdn.nest.rip/uploads/a0790600-2288-4627-9e98-11b142018cb9.png">
 
 ## install
 
