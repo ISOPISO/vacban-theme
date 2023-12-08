@@ -51,9 +51,9 @@
 	/* color of accented buttons when clicked */
 	--accent-5: #1c1c1c;
 	/* color of mentions and messages that mention you */
-	--mention: hsla(26, 80%, 52%, 0.1);
+	--mention: hsla(320, 80%, 60%, 0.1);
 	/* color of mentions and messages that mention you when hovered */
-	--mention-hover: hsla(25, 80%, 52%, 0.05);
+	--mention-hover: hsla(314, 80%, 52%, 0.05);
 
 	/* color of bright text on colored buttons */
 	--text-1: hsl(0, 0%, 87%);
